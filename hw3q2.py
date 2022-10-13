@@ -45,5 +45,5 @@ while c != "$0":
      c = d[c]
 # print("".join(decompressed[::-1]))
 
-with open(argv[2], "a") as f:
+with open(argv[2], "w") as f:
     f.write("".join(decompressed[::-1]))
